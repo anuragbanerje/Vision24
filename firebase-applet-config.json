@@ -1,8 +1,8 @@
  {
-  apiKey: "AIzaSyAw0Ji0i-u9NcwRFW6cpFOYmrq5OavnivI",
-  authDomain: "visio-b20ea.firebaseapp.com",
-  projectId: "visio-b20ea",
-  storageBucket: "visio-b20ea.firebasestorage.app",
-  messagingSenderId: "661007065520",
-  appId: "1:661007065520:web:799c8e0cd510ad63147675"
+  "apiKey":"AIzaSyAw0Ji0i-u9NcwRFW6cpFOYmrq5OavnivI",
+  "authDomain":"visio-b20ea.firebaseapp.com",
+  "projectId":"visio-b20ea",
+  "storageBucket":"visio-b20ea.firebasestorage.app",
+  "messagingSenderId":"661007065520",
+  "appId":"1:661007065520:web:799c8e0cd510ad63147675"
 }
