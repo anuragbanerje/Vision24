@@ -1,0 +1,5 @@
+{
+  "name": "Vision 24",
+  "description": "A professional-grade news and media application featuring dynamic feeds, automated RSS content, user engagement, and multimedia support.",
+  "requestFramePermissions": ["geolocation"]
+}

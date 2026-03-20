@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&family=Hind:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-deep-blue: #001F3F;
+  --color-gold: #FFD700;
+  --color-gold-light: #FFEA00;
+  --color-off-white: #F5F5F5;
+  --font-sans: "Inter", "Hind Siliguri", "Hind", ui-sans-serif, system-ui, sans-serif;
+  --font-indic: "Hind Siliguri", "Hind", sans-serif;
+}
+
+body {
+  @apply bg-off-white text-deep-blue font-sans antialiased;
+  /* Ensure Indic scripts don't break awkwardly */
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-lg;
+}
+
+.gold-gradient {
+  @apply bg-gradient-to-r from-gold to-gold-light;
+}
+
+.blue-gradient {
+  @apply bg-gradient-to-br from-deep-blue to-[#003366];
+}
+
